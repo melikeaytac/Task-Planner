@@ -148,7 +148,7 @@ public class MainController {
 
     void handleEditTask() {
         if (taskList.isEmpty()) {
-            JOptionPane.showMessageDialog(view, "No tasks available to edit.", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(view, "No tasks available to edit!", "Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
 
